@@ -28,9 +28,9 @@ body {
 }
 
 .peck {
-	background-image: erected-smiling-penis-erected-smiling-penis-balls-vector-107203673.jpg;
-	background-repeat: no-repeat;
+	background:#FFCBA4;
 	width:100px;
-	height: 300px;
+	height:100px;
+	border-radius:50px;
 	opacity:0.7;
 }
