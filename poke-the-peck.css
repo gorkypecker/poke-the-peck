@@ -28,9 +28,11 @@ body {
 }
 
 .peck {
-	background:#FFCBA4;
-	width:100px;
-	height:100px;
-	border-radius:50px;
-	opacity:0.7;
+#ball { width: 100px; height: 100px; background: #ffd6ba; -moz-border-radius: 100px / 100px; -webkit-border-radius: 100px / 100px; border-radius: 100px / 100px; position: absolute; top:0; left:0; }
+#ball2 { width: 100px; height: 100px; background: #ffd6ba;  -moz-border-radius: 100px / 100px; -webkit-border-radius: 100px / 100px; border-radius: 100px / 100px; position: absolute; top:0; left:75px;  }
+#shaft { width: 75px; height: 300px; background: #ffd6ba; position: absolute; top:30px; left:50px;   }
+
+#shaft #dickhead { width: 75px; height: 75px; background: #ffd6ba; position: relative; top: 260px; left:0px; -webkit-border-radius: 50px / 50px; -moz-border-radius: 50px / 50px;; border-radius: 50px / 50px;   }
+
+#shaft #dickhead #slit { width: 5px; height: 15px; background: black; -webkit-border-radius: 5px / 5px; position: relative; top:60px; left:34px; }
 }
