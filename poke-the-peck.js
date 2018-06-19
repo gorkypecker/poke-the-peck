@@ -1,5 +1,5 @@
 var pecks = 0;
-
+var skinColors = ["#fae7do", "#dfc183", "#aa724b", "#ffcc99", "#feb186", "#c8aca3", "#e8cda8", "#7b4b2a"];
 var peckDelay = 6900;
 
 updateCount();
@@ -15,6 +15,7 @@ function generatePeck() {
 		position:"absolute",
 		top:topRand,
 		left:leftRand,
+		backgroundColor:skinColors[Math.floor(Math.random() * skinColors.length)]
 
 	});
 	$("body").prepend(newPeck);
