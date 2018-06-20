@@ -9,8 +9,8 @@ function generatePeck() {
 	var newPeck = document.createElement("div");
 	$(newPeck).addClass("peck");
 	$(newPeck).append("<div class='peck-c'></div><div class='peck-b-l'></div><div class='peck-b-r'></div>");
-	var topRand = Math.floor(Math.random() * ($("body").height() - 50)));
-	var leftRand = Math.floor(Math.random() * ($("body").width() - 50)));
+	var topRand = Math.floor(Math.random() * ($("body").height() - 50));
+	var leftRand = Math.floor(Math.random() * ($("body").width() - 50));
 	$(newPeck).css({
 		display:"none",
 		position:"absolute",
